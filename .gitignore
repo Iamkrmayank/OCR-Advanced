@@ -63,6 +63,7 @@ dmypy.json
 # Project specific
 ocr_response.json
 *.md
+!README.md
 *.docx
 out*.md
 out*.docx
