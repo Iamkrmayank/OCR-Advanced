@@ -278,15 +278,7 @@ curl -X POST "http://localhost:8010/ocr-advanced" \
 - `mistral_ocr-v3.py`: Good table support
 - `mistral_ocr-v2.py`: Simple text-only version
 - `mistral_ocr.py`: Full-featured with image support
-
-## License
-
-[Add your license here]
-
-## Contributing
-
-[Add contributing guidelines here]
-
+  
 ## Support
 
 For issues and questions, please open an issue on GitHub.
