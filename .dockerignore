@@ -1,0 +1,77 @@
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test files and output
+*.md
+*.docx
+test_*.py
+*_test.py
+ocr_response.json
+out*.md
+out*.docx
+v*.md
+v*.docx
+final_*.md
+final_*.docx
+
+# Large files (PDFs - exclude unless needed in image)
+*.pdf
+
+# Environment files (use Docker secrets/env vars instead)
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Installer files
+*.msi
+*.exe
+*.dmg
+
+# Documentation (if not needed in image)
+README.md
+docs/
+*.md
+
+# Docker files themselves
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
